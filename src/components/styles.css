@@ -14,12 +14,21 @@
     margin-top: 0.5em;
 }
 
+.search {
+    position: absolute;
+    padding-left: 2em;
+    padding-top: 1.1em;
+}
+
 .input {
-    border-radius: 1em;
+    padding-left: 2em;
+    border-radius: 0.5em;
     outline: none;
     margin-top: 1em;
     margin-left: 2em;
-    width: 15rem;
+    width: 20rem;
+    height: 1.25rem;
+    border: none;
 }
 
 .btn-ok {
@@ -48,4 +57,210 @@
     text-align: center;
 
     color: #808080;
+}
+
+body {
+    background: #E5E5E5;
+}
+
+.reps-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2em 4em;
+
+    margin-top: 2em;
+    margin-left: 7em;
+    width: 40em;
+    height: 5em;
+    left: 433px;
+    top: 171px;
+
+    /* Base / White */
+
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+.reps-name {
+    position: static;
+    height: 29px;
+    left: 3.65%;
+    right: 74.57%;
+    top: calc(50% - 29px/2 - 17.5px);
+    cursor: pointer;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #0064EB;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+.reps-description {
+    position: static;
+    height: 19px;
+    left: 3.65%;
+    right: 29.53%;
+    top: calc(50% - 19px/2 + 22.5px);
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+.user-photo {
+    margin-top: 2em;
+    border-radius: 50%;
+    width: 12em;
+    height: 12em;
+    left: 57px;
+    top: 111px;
+    padding: 3em 4em;
+
+}
+.content {
+    display: flex;
+}
+.user-info {
+    margin-left: 2em;
+}
+.user-name {
+    height: 34px;
+    left: 4.1%;
+    right: 83.45%;
+    top: calc(50% - 34px/2 + 53px);
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 130%;
+}
+
+.user-login {
+    margin-top: 1em;
+    height: 28.74px;
+    left: 4.1%;
+    right: 90%;
+    top: calc(50% - 28.74px/2 + 96.37px);
+    cursor: pointer;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #0064EB;
+
+}
+.user-follow {
+    margin-top: 2em;
+    display: inline-flex;
+    left: 6.44%;
+    right: 85.14%;
+    top: 67.71%;
+    bottom: 29.17%;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+}
+.user-followings {
+    margin-left: 2em;
+}
+
+.reps {
+    margin-top: 3em;
+    margin-left: 4em;
+    height: 42px;
+    left: 31.84%;
+    right: 47%;
+    top: calc(50% - 42px/2 - 263px);
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+}
+
+.no-user {
+    position: absolute;
+    width: 200px;
+    height: 110px;
+    left: 48%;
+    top: 40%;
+}
+.no-user-logo {
+    padding-left: 1.6em;
+}
+.no-user-text {
+    position: absolute;
+    height: 31px;
+
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 140%;
+}
+
+.initial-logo {
+    padding-left: 5%;
+}
+
+.no-reps {
+    position: absolute;
+    width: 243px;
+    height: 165px;
+    left: 751px;
+    top: 269px;
+
+}
+.no-reps-logo {
+   padding-left: 4em;
+    left: 15.45%;
+    right: 15.45%;
+    top: 21.82%;
+    bottom: 21.82%;
+}
+
+.no-reps-text {
+
+    height: 31px;
+
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 140%;
 }

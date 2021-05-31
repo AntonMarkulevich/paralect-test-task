@@ -7,7 +7,7 @@ const StartPage = () => {
 
     return (
         <div>
-            <BsSearch size={48}/>
+            <BsSearch className="initial-logo" size={48}/>
             <div className="initial-text">
                 Start with searching a GitHub user
             </div>
